@@ -1,5 +1,5 @@
 # Learn-Pandas
-**Pandas for Python in Jupyter Notebook.ipynb** is a self explanatory resource for learning Pandas in Jupyter Notebook. It consists of detailed explanation of functions with numerous examples. 
+**Pandas for Python in Jupyter Notebook.ipynb** is a self-explanatory resource for learning Pandas in Jupyter Notebook. It consists of the detailed explanation of functions with numerous examples. 
 
 In order to ***download*** the notebook in the local machine, follow these steps:
 
