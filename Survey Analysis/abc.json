@@ -1,0 +1,3918 @@
+{
+    "surveyMeta": {
+        "5f3990fd250501035f4c2457": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f3990fd250501035f4c2457",
+            "question": "RA - Please enter the participant ID",
+            "researcherAttachment": "",
+            "type": "NUMERIC",
+            "variableName": "ID_",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f132364f2bb0511c323a14d": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f132364f2bb0511c323a14d",
+            "question": "RA - Please enter the site.",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "site",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Bay Pines VA",
+                "Sioux Falls VA",
+                "USD"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f5391d2c1734f38fd9ceefa": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f5391d2c1734f38fd9ceefa",
+            "question": "Your data will be identified by a unique number rather than your name. Your responses are confidential. The value of the study depends on your honest and accurate responses. Thank you for your participation in this important research.",
+            "researcherAttachment": "",
+            "type": "INFORMATION",
+            "variableName": "quest_1599312338937",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f134d11e06ec411bc62cdaf": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f134d11e06ec411bc62cdaf",
+            "question": "DEM01) Please enter your age.",
+            "researcherAttachment": "",
+            "type": "NUMERIC",
+            "variableName": "quest_1595100433287",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f134d33f448ff1191fa23f9": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f134d33f448ff1191fa23f9",
+            "question": "DEM02) Please select your biological sex assigned at birth.",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "dem02",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Male",
+                "Female",
+                "Do not wish to respond"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f145684e06ec411bc6336d6": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f145684e06ec411bc6336d6",
+            "question": "HEI01) Please enter your height. Please only enter numbers, no punctuation or letters.",
+            "researcherAttachment": "",
+            "type": "GRID_NUMERIC",
+            "variableName": "hei01",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            },
+            "grid": {
+                "typeConsistency": "ROW",
+                "rows": [
+                    {
+                        "choices": [],
+                        "_id": "5f145684e06ec411bc6336da",
+                        "text": "Height",
+                        "styledText": "Height"
+                    }
+                ],
+                "columns": [
+                    {
+                        "choices": [],
+                        "_id": "5f145684e06ec411bc6336d7",
+                        "text": "feet",
+                        "styledText": "feet"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f145684e06ec411bc6336d8",
+                        "text": "inches",
+                        "styledText": "inches"
+                    }
+                ]
+            }
+        },
+        "5f14574ef2bb0511c323f4f1": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f14574ef2bb0511c323f4f1",
+            "question": "WEI01) Please enter your weight in pounds",
+            "researcherAttachment": "",
+            "type": "NUMERIC",
+            "variableName": "wei01",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f132487f2bb0511c323a1e6": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f132487f2bb0511c323a1e6",
+            "question": "PCL_s1 instructions: Below is a list of problems that people sometimes have in response to a very stressful experience. Keeping your worst event in mind, please read each problem carefully and select an answer to the right to indicate how much you have been bothered by that problem in the past month.In the past month, how much were you bothered by:",
+            "researcherAttachment": "",
+            "type": "GRID_SINGLE_CHOICE",
+            "variableName": "pcl_s1",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            },
+            "grid": {
+                "typeConsistency": "ROW",
+                "rows": [
+                    {
+                        "choices": [],
+                        "_id": "5f132487f2bb0511c323a1ea",
+                        "text": "1. Repeated, disturbing, and unwanted memories of the stressful experience?",
+                        "styledText": "1. Repeated, disturbing, and unwanted memories of the stressful experience?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f132487f2bb0511c323a1eb",
+                        "text": "2. Repeated, disturbing dreams of the stressful experience?",
+                        "styledText": "2. Repeated, disturbing dreams of the stressful experience?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f132487f2bb0511c323a1ec",
+                        "text": "3. Suddenly feeling or acting as if the stressful experience were actually happening again (as if you were actually back there reliving it)?",
+                        "styledText": "3. Suddenly feeling or acting as if the stressful experience were actually happening again (as if you were actually back there reliving it)?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13447df2bb0511c323a6b6",
+                        "text": "4. Feeling very upset when something reminded you of the stressful experience?",
+                        "styledText": "4. Feeling very upset when something reminded you of the stressful experience?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13447df2bb0511c323a6b7",
+                        "text": "5. Having strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating)?",
+                        "styledText": "5. Having strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating)?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13447df2bb0511c323a6b8",
+                        "text": "6. Avoiding memories, thoughts, or feelings related to the stressful experience?",
+                        "styledText": "6. Avoiding memories, thoughts, or feelings related to the stressful experience?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13447df2bb0511c323a6b9",
+                        "text": "7. Avoiding external reminders of the stressful experience (for example, people, places, conversations, activities, objects, or situations)?",
+                        "styledText": "7. Avoiding external reminders of the stressful experience (for example, people, places, conversations, activities, objects, or situations)?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13447df2bb0511c323a6ba",
+                        "text": "8. Trouble remembering important parts of the stressful experience?",
+                        "styledText": "8. Trouble remembering important parts of the stressful experience?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13447df2bb0511c323a6bb",
+                        "text": "9. Having strong negative beliefs about yourself, other people, or the world (for example, having thoughts such as I am bad, there is something seriously wrong with me, no one can be trusted, the world is completely dangerous)?",
+                        "styledText": "9. Having strong negative beliefs about yourself, other people, or the world (for example, having thoughts such as I am bad, there is something seriously wrong with me, no one can be trusted, the world is completely dangerous)?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13447df2bb0511c323a6bc",
+                        "text": "10. Blaming yourself or someone else for the stressful experience or what happened after it?",
+                        "styledText": "10. Blaming yourself or someone else for the stressful experience or what happened after it?"
+                    }
+                ],
+                "columns": [
+                    {
+                        "choices": [],
+                        "_id": "5f132487f2bb0511c323a1e7",
+                        "text": "Not at all",
+                        "styledText": "Not at all"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f132487f2bb0511c323a1e8",
+                        "text": "A little bit",
+                        "styledText": "A little bit"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f132487f2bb0511c323a1e9",
+                        "text": "Moderately",
+                        "styledText": "Moderately"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13265ef448ff1191fa1ec1",
+                        "text": "Quite a bit",
+                        "styledText": "Quite a bit"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13265ef448ff1191fa1ec2",
+                        "text": "Extremely",
+                        "styledText": "Extremely"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f135e33e06ec411bc62d1ec",
+                        "text": "Do not wish to respond",
+                        "styledText": "Do not wish to respond"
+                    }
+                ]
+            }
+        },
+        "5f134a4bb0e9a4118b6e1e4c": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f134a4bb0e9a4118b6e1e4c",
+            "question": "PCL11-20 instructions: Below is a list of problems that people sometimes have in response to a very stressful experience. Keeping your worst event in mind, please read each problem carefully and select an answer to the right to indicate how much you have been bothered by that problem in the past month.In the past month, how much were you bothered by:",
+            "researcherAttachment": "",
+            "type": "GRID_SINGLE_CHOICE",
+            "variableName": "pcl_s2",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            },
+            "grid": {
+                "typeConsistency": "ROW",
+                "rows": [
+                    {
+                        "choices": [],
+                        "_id": "5f134a4bb0e9a4118b6e1e50",
+                        "text": "11. Having strong negative feelings such as fear, horror, anger, guilt, or shame?",
+                        "styledText": "11. Having strong negative feelings such as fear, horror, anger, guilt, or shame?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134a4bb0e9a4118b6e1e51",
+                        "text": "12. Loss of interest in activities that you used to enjoy?",
+                        "styledText": "12. Loss of interest in activities that you used to enjoy?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134a4bb0e9a4118b6e1e52",
+                        "text": "13. Feeling distant or cut off from other people?",
+                        "styledText": "13. Feeling distant or cut off from other people?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134b1ae06ec411bc62cd9f",
+                        "text": "14. Trouble experiencing positive feelings (for example, being unable to feel happiness or have loving feelings for people close to you)?",
+                        "styledText": "14. Trouble experiencing positive feelings (for example, being unable to feel happiness or have loving feelings for people close to you)?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134b1ae06ec411bc62cda0",
+                        "text": "15. Irritable behavior, angry outbursts, or acting aggressively?",
+                        "styledText": "15. Irritable behavior, angry outbursts, or acting aggressively?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134b1ae06ec411bc62cda1",
+                        "text": "16. Taking too many risks or doing things that could cause you harm?",
+                        "styledText": "16. Taking too many risks or doing things that could cause you harm?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134b1ae06ec411bc62cda2",
+                        "text": "17. Being \u201csuperalert\u201d or watchful or on guard?",
+                        "styledText": "17. Being \u201csuperalert\u201d or watchful or on guard?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134b1ae06ec411bc62cda3",
+                        "text": "18. Feeling jumpy or easily startled?",
+                        "styledText": "18. Feeling jumpy or easily startled?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134b1ae06ec411bc62cda4",
+                        "text": "19. Having difficulty concentrating?",
+                        "styledText": "19. Having difficulty concentrating?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134b1ae06ec411bc62cda5",
+                        "text": "20. Trouble falling or staying asleep?",
+                        "styledText": "20. Trouble falling or staying asleep?"
+                    }
+                ],
+                "columns": [
+                    {
+                        "choices": [],
+                        "_id": "5f134a4bb0e9a4118b6e1e4d",
+                        "text": "Not at all",
+                        "styledText": "Not at all"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134a4bb0e9a4118b6e1e4e",
+                        "text": "A little bit",
+                        "styledText": "A little bit"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134a4bb0e9a4118b6e1e4f",
+                        "text": "Moderately",
+                        "styledText": "Moderately"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134b1ae06ec411bc62cd9a",
+                        "text": "Quite a bit",
+                        "styledText": "Quite a bit"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f134b1ae06ec411bc62cd9b",
+                        "text": "Extremely",
+                        "styledText": "Extremely"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f135e4ef2bb0511c323ac9a",
+                        "text": "Do not wish to respond",
+                        "styledText": "Do not wish to respond"
+                    }
+                ]
+            }
+        },
+        "5f134dfdf448ff1191fa2485": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f134dfdf448ff1191fa2485",
+            "question": "PCL21) Did the stressful experience referred to in the previous survey occur during your military service?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "pcl21",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Yes",
+                "No"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f135aece06ec411bc62d15c": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f135aece06ec411bc62d15c",
+            "question": "AUD: The next section asks questions about drinking. Please select the response that best describes your answer.",
+            "researcherAttachment": "picture",
+            "type": "INFORMATION",
+            "variableName": "quest_1595103980409",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f134ef8e06ec411bc62cf01": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f134ef8e06ec411bc62cf01",
+            "question": "AUD01) How often do you have a drink containing alcohol?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "aud01",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Never",
+                "Monthly or less",
+                "2 to 4 times a month",
+                "2 to 3 times a week",
+                "4 or more times a week"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f134fd4b0e9a4118b6e1f88": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f134fd4b0e9a4118b6e1f88",
+            "question": "AUD02) How many drinks containing alcohol do you have on a typical day when you are drinking?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "quest_1595101140986",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "1 or 2",
+                "3 or 4",
+                "5 or 6",
+                "7 to 9",
+                "10 or more"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f13553ce06ec411bc62d008": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f13553ce06ec411bc62d008",
+            "question": "AUD03-08)",
+            "researcherAttachment": "",
+            "type": "GRID_SINGLE_CHOICE",
+            "variableName": "aud03_08",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            },
+            "grid": {
+                "typeConsistency": "ROW",
+                "rows": [
+                    {
+                        "choices": [],
+                        "_id": "5f13553ce06ec411bc62d00c",
+                        "text": "AUD03)  How often do you have 5 or more drinks on one occasion?",
+                        "styledText": "AUD03)  How often do you have 5 or more drinks on one occasion?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13553ce06ec411bc62d00d",
+                        "text": "AUD04) How often during the last year have you found that you were not able to stop drinking once you had started?",
+                        "styledText": "AUD04) How often during the last year have you found that you were not able to stop drinking once you had started?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13553ce06ec411bc62d00e",
+                        "text": "AUD05) How often during the last year have you failed to do what was normally expected of you because of drinking?",
+                        "styledText": "AUD05) How often during the last year have you failed to do what was normally expected of you because of drinking?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13561de06ec411bc62d021",
+                        "text": "AUD06) How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?",
+                        "styledText": "AUD06) How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13561de06ec411bc62d022",
+                        "text": "AUD07) How often during the last year have you had a feeling of guilt or remorse after drinking?",
+                        "styledText": "AUD07) How often during the last year have you had a feeling of guilt or remorse after drinking?"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13561de06ec411bc62d023",
+                        "text": "AUD08) How often during the last year have you been unable to remem-ber what happened the night before because of your drinking?",
+                        "styledText": "AUD08) How often during the last year have you been unable to remember what happened the night before because of your drinking?"
+                    }
+                ],
+                "columns": [
+                    {
+                        "choices": [],
+                        "_id": "5f13553ce06ec411bc62d009",
+                        "text": "Never",
+                        "styledText": "Never"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13553ce06ec411bc62d00a",
+                        "text": "Less than monthly",
+                        "styledText": "Less than monthly"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13553ce06ec411bc62d00b",
+                        "text": "Monthly",
+                        "styledText": "Monthly"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13561de06ec411bc62d01c",
+                        "text": "Weekly",
+                        "styledText": "Weekly"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f13561de06ec411bc62d01d",
+                        "text": "Daily or almost daily",
+                        "styledText": "Daily or almost daily"
+                    },
+                    {
+                        "choices": [],
+                        "_id": "5f135e67f448ff1191fa2b4a",
+                        "text": "Do not wish to respond",
+                        "styledText": "Do not wish to respond"
+                    }
+                ]
+            }
+        },
+        "5f1352a9b0e9a4118b6e1fea": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f1352a9b0e9a4118b6e1fea",
+            "question": "AUD09) Have you or someone else been injured because of your drinking?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "aud09",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "No",
+                "Yes, but not in the last year",
+                "Yes, during the last year"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f1352f0f448ff1191fa264b": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f1352f0f448ff1191fa264b",
+            "question": "AUD10) Has a relative, friend, doctor, or other health care worker been concerned about your drinking or suggested you cut down?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "aud10",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "No",
+                "Yes, but not in the last year",
+                "Yes, during the last year"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f134e4ee06ec411bc62ce42": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f134e4ee06ec411bc62ce42",
+            "question": "PCL22) Has anyone indicated that you've changed since the stressful military experience?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "pcl22",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Yes",
+                "No"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f13564cf448ff1191fa27f0": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f13564cf448ff1191fa27f0",
+            "question": "sis01) In the past week, have you wished you were dead or wished you could go to sleep and not wake up?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "sis01",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Yes",
+                "No"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f13567cf2bb0511c323aa9b": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f13567cf2bb0511c323aa9b",
+            "question": "sis02) In the past week, have you actually had any thoughts about killing yourself?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "sis02",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Yes",
+                "No"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f1356a6f2bb0511c323aaa3": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f1356a6f2bb0511c323aaa3",
+            "question": "hom01) In the past week, have you had thoughts of harming or killing others?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "hom01",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Yes",
+                "No"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f1356faf2bb0511c323aaab": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f1356faf2bb0511c323aaab",
+            "question": "psy01) Do you believe that someone is reading your mind or could hear your thoughts or that you could actually read someone\u2019s mind or hear what another person was thinking?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "psy01",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Yes",
+                "No"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f135778f2bb0511c323aab3": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f135778f2bb0511c323aab3",
+            "question": "psy02) Are you seeing things that other people don't seem to see or hearing things other people couldn't hear, such as voices?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "psy02",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Yes",
+                "No"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f1357a0e06ec411bc62d027": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f1357a0e06ec411bc62d027",
+            "question": "psy03) Do you believe that you are being sent special messages through the TV, radio, or newspaper, or that a person you did not personally know is particularly interested in you?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "psy03",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Yes",
+                "No"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f145831f448ff1191fa8bac": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f145831f448ff1191fa8bac",
+            "question": "BSA - The following questions ask about sleep problems. Please choose the correct response to each answer.BSA01) Do you snore?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "bsa01",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Yes",
+                "No",
+                "Don't know"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f14589eb0e9a4118b6e8460": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f14589eb0e9a4118b6e8460",
+            "question": "BSA02) Your snoring is:",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "bsa02",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Slightly louder than breathing",
+                "As loud as talking",
+                "Louder than talking",
+                "Very loud, can be heard in adjacent rooms"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f145915f448ff1191fa8bcf": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f145915f448ff1191fa8bcf",
+            "question": "bsa03) How often do you snore?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "bsa03",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Nearly every day",
+                " 3-4 times a week",
+                "1-2 times a week",
+                " 1-2 times a month",
+                " Never or nearly never"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f145989b0e9a4118b6e8474": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f145989b0e9a4118b6e8474",
+            "question": "bsa04) Has your snoring ever bothered other people?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "bsa04",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Yes",
+                "No",
+                "Don't know"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f145a02f448ff1191fa8c65": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f145a02f448ff1191fa8c65",
+            "question": "bsa05) Has anyone noticed that you quit breathing during your sleep?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "bsa05",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Nearly every day",
+                " 3-4 times a week",
+                "1-2 times a week",
+                "1-2 times a month",
+                "Never or nearly never"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f145a72b0e9a4118b6e847f": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f145a72b0e9a4118b6e847f",
+            "question": "bsa06) How often do you feel tired or fatigued after you sleep?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "bsa06",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Nearly every day",
+                "3-4 times a week",
+                "1-2 times a week",
+                "1-2 times a month",
+                "Never or nearly never"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f145ad7e06ec411bc633722": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f145ad7e06ec411bc633722",
+            "question": "bsa07) During your waking time, do you feel tired, fatigued, or not up to par?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "bsa07",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Nearly every day",
+                "\n3-4 times a week",
+                "\n1-2 times a week",
+                "\n1-2 times a month",
+                "\nNever or nearly never"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f145b47f2bb0511c323f5d7": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f145b47f2bb0511c323f5d7",
+            "question": "bsa08) Have you ever nodded off or fallen asleep while driving a vehicle?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "bsa08",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Yes",
+                "No"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f145b7db0e9a4118b6e84b5": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f145b7db0e9a4118b6e84b5",
+            "question": "bsa09) How often does this occur? (nodding off or falling asleep while driving a vehicle)",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "bsa09",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Nearly every day",
+                "\n3-4 times a week",
+                "\n1-2 times a week",
+                "\n1-2 times a month",
+                "\nNever or nearly never"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        },
+        "5f145bc0f448ff1191fa8c76": {
+            "surveyName": "Screen",
+            "surveyType": "WEB",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "id": "5f145bc0f448ff1191fa8c76",
+            "question": "bsa10) Do you have high blood pressure?",
+            "researcherAttachment": "",
+            "type": "SINGLE_CHOICE",
+            "variableName": "bsa10",
+            "isDisabled": false,
+            "isHidden": false,
+            "choices": [
+                "Yes",
+                "No",
+                "Don't know"
+            ],
+            "dynamicCondition": {
+                "userIds": [],
+                "invert": false
+            }
+        }
+    },
+    "submissions": [
+        {
+            "responseId": "5f564ae8597aad48b98b0653",
+            "studyId": "5f131c2ff448ff1191fa1d76",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "userId": "56d4b10baf91307077a89609",
+            "trigger": {
+                "id": "5f132a6ef2bb0511c323a21f",
+                "timestamp": 1599141067953,
+                "index": 1,
+                "type": "PORTAL",
+                "name": "screen"
+            },
+            "device": {
+                "os": "Mac OS",
+                "osVersion": "10.15",
+                "browser": "Firefox",
+                "browserVersion": "80.0"
+            },
+            "timestamp": {
+                "created": 1599490424748,
+                "updated": 1599490790972
+            },
+            "questionValues": {
+                "5f3990fd250501035f4c2457": {
+                    "response": 99999,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:53:44"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:54:17"
+                        }
+                    }
+                },
+                "5f132364f2bb0511c323a14d": {
+                    "response": "USD",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:54:17"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:54:21"
+                        }
+                    }
+                },
+                "5f5391d2c1734f38fd9ceefa": {
+                    "response": "INFORMATION_QUESTION",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:54:21"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:54:22"
+                        }
+                    }
+                },
+                "5f134d11e06ec411bc62cdaf": {
+                    "response": 34,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:54:22"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:54:29"
+                        }
+                    }
+                },
+                "5f134d33f448ff1191fa23f9": {
+                    "response": "Do not wish to respond",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:54:29"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:54:35"
+                        }
+                    }
+                },
+                "5f145684e06ec411bc6336d6": {
+                    "response": [
+                        [
+                            "Height-feet: "
+                        ],
+                        [
+                            "Height-inches: "
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:54:35"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:54:49"
+                        }
+                    }
+                },
+                "5f14574ef2bb0511c323f4f1": {
+                    "response": "SKIPPED",
+                    "skipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:54:44"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:55:05"
+                        }
+                    }
+                },
+                "5f132487f2bb0511c323a1e6": {
+                    "response": [
+                        [
+                            "1. Repeated, disturbing, and unwanted memories of the stressful experience?:",
+                            "Not at all"
+                        ],
+                        [
+                            "2. Repeated, disturbing dreams of the stressful experience?:",
+                            "A little bit"
+                        ],
+                        [
+                            "3. Suddenly feeling or acting as if the stressful experience were actually happening again (as if you were actually back there reliving it)?:",
+                            "A little bit"
+                        ],
+                        [
+                            "4. Feeling very upset when something reminded you of the stressful experience?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "5. Having strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating)?:",
+                            "Moderately"
+                        ],
+                        [
+                            "6. Avoiding memories, thoughts, or feelings related to the stressful experience?:",
+                            "Moderately"
+                        ],
+                        [
+                            "7. Avoiding external reminders of the stressful experience (for example, people, places, conversations, activities, objects, or situations)?:",
+                            "A little bit"
+                        ],
+                        [
+                            "8. Trouble remembering important parts of the stressful experience?:",
+                            "A little bit"
+                        ],
+                        [
+                            "9. Having strong negative beliefs about yourself, other people, or the world (for example, having thoughts such as I am bad, there is something seriously wrong with me, no one can be trusted, the world is completely dangerous)?:",
+                            "Moderately"
+                        ],
+                        [
+                            "10. Blaming yourself or someone else for the stressful experience or what happened after it?:",
+                            "Moderately"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:55:05"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:56:09"
+                        }
+                    }
+                },
+                "5f134a4bb0e9a4118b6e1e4c": {
+                    "response": [
+                        [
+                            "11. Having strong negative feelings such as fear, horror, anger, guilt, or shame?:",
+                            "A little bit"
+                        ],
+                        [
+                            "12. Loss of interest in activities that you used to enjoy?:",
+                            "Not at all"
+                        ],
+                        [
+                            "13. Feeling distant or cut off from other people?:",
+                            "Moderately"
+                        ],
+                        [
+                            "14. Trouble experiencing positive feelings (for example, being unable to feel happiness or have loving feelings for people close to you)?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "15. Irritable behavior, angry outbursts, or acting aggressively?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "16. Taking too many risks or doing things that could cause you harm?:",
+                            "Moderately"
+                        ],
+                        [
+                            "17. Being \u201csuperalert\u201d or watchful or on guard?:",
+                            "Moderately"
+                        ],
+                        [
+                            "18. Feeling jumpy or easily startled?:",
+                            "A little bit"
+                        ],
+                        [
+                            "19. Having difficulty concentrating?:",
+                            "Extremely"
+                        ],
+                        [
+                            "20. Trouble falling or staying asleep?:",
+                            "Extremely"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:56:09"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:56:48"
+                        }
+                    }
+                },
+                "5f134dfdf448ff1191fa2485": {
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:56:48"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:57:19"
+                        }
+                    }
+                },
+                "5f135aece06ec411bc62d15c": {
+                    "response": "INFORMATION_QUESTION",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:57:19"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:57:21"
+                        }
+                    }
+                },
+                "5f134ef8e06ec411bc62cf01": {
+                    "response": "Monthly or less",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:57:21"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:57:24"
+                        }
+                    }
+                },
+                "5f134fd4b0e9a4118b6e1f88": {
+                    "response": "10 or more",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:57:24"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:57:40"
+                        }
+                    }
+                },
+                "5f13553ce06ec411bc62d008": {
+                    "response": [
+                        [
+                            "AUD03)  How often do you have 5 or more drinks on one occasion?:",
+                            "Less than monthly"
+                        ],
+                        [
+                            "AUD04) How often during the last year have you found that you were not able to stop drinking once you had started?:",
+                            "Less than monthly"
+                        ],
+                        [
+                            "AUD05) How often during the last year have you failed to do what was normally expected of you because of drinking?:",
+                            "Monthly"
+                        ],
+                        [
+                            "AUD06) How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?:",
+                            "Never"
+                        ],
+                        [
+                            "AUD07) How often during the last year have you had a feeling of guilt or remorse after drinking?:",
+                            "Never"
+                        ],
+                        [
+                            "AUD08) How often during the last year have you been unable to remem-ber what happened the night before because of your drinking?:",
+                            "Less than monthly"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:57:40"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:57:55"
+                        }
+                    }
+                },
+                "5f1352a9b0e9a4118b6e1fea": {
+                    "response": "Yes, but not in the last year",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:57:55"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:58:13"
+                        }
+                    }
+                },
+                "5f1352f0f448ff1191fa264b": {
+                    "response": "Yes, during the last year",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:58:13"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:58:21"
+                        }
+                    }
+                },
+                "5f134e4ee06ec411bc62ce42": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:58:21"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:58:27"
+                        }
+                    }
+                },
+                "5f13564cf448ff1191fa27f0": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:58:27"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:58:31"
+                        }
+                    }
+                },
+                "5f13567cf2bb0511c323aa9b": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:58:31"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:58:35"
+                        }
+                    }
+                },
+                "5f1356a6f2bb0511c323aaa3": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:58:35"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:58:39"
+                        }
+                    }
+                },
+                "5f1356faf2bb0511c323aaab": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:58:39"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:58:47"
+                        }
+                    }
+                },
+                "5f135778f2bb0511c323aab3": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:58:47"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:58:56"
+                        }
+                    }
+                },
+                "5f1357a0e06ec411bc62d027": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:58:56"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:59:01"
+                        }
+                    }
+                },
+                "5f145831f448ff1191fa8bac": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:59:01"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:59:08"
+                        }
+                    }
+                },
+                "5f14589eb0e9a4118b6e8460": {
+                    "response": "Slightly louder than breathing",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:59:08"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:59:13"
+                        }
+                    }
+                },
+                "5f145915f448ff1191fa8bcf": {
+                    "response": " Never or nearly never",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:59:13"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:59:18"
+                        }
+                    }
+                },
+                "5f145989b0e9a4118b6e8474": {
+                    "response": "Don't know",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:59:18"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:59:22"
+                        }
+                    }
+                },
+                "5f145a02f448ff1191fa8c65": {
+                    "response": "Nearly every day",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:59:22"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:59:28"
+                        }
+                    }
+                },
+                "5f145a72b0e9a4118b6e847f": {
+                    "response": "Never or nearly never",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:59:28"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:59:32"
+                        }
+                    }
+                },
+                "5f145ad7e06ec411bc633722": {
+                    "response": "\n3-4 times a week",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:59:32"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:59:36"
+                        }
+                    }
+                },
+                "5f145b47f2bb0511c323f5d7": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:59:36"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:59:41"
+                        }
+                    }
+                },
+                "5f145b7db0e9a4118b6e84b5": {
+                    "response": "\n1-2 times a month",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:59:41"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:59:44"
+                        }
+                    }
+                },
+                "5f145bc0f448ff1191fa8c76": {
+                    "response": "Don't know",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "09:59:44"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "09:59:50"
+                        }
+                    }
+                }
+            },
+            "timeZoneMinutes": -300,
+            "timeZoneReadable": "-5:00",
+            "triggerTimeLocal": {
+                "date": "03/09/2020",
+                "time": "08:51:07"
+            },
+            "submissionLocation": "",
+            "timestampCreatedLocal": {
+                "date": "07/09/2020",
+                "time": "09:53:44"
+            },
+            "timestampUpdatedLocal": {
+                "date": "07/09/2020",
+                "time": "09:59:50"
+            }
+        },
+        {
+            "responseId": "5f564d633e2fd848eac2ca51",
+            "studyId": "5f131c2ff448ff1191fa1d76",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "userId": "56d4b10baf91307077a89609",
+            "trigger": {
+                "id": "5f132a6ef2bb0511c323a21f",
+                "timestamp": 1599141067953,
+                "index": 1,
+                "type": "PORTAL",
+                "name": "screen"
+            },
+            "device": {
+                "os": "Mac OS",
+                "osVersion": "10.15",
+                "browser": "Firefox",
+                "browserVersion": "80.0"
+            },
+            "timestamp": {
+                "created": 1599490938827,
+                "updated": 1599491426173
+            },
+            "questionValues": {
+                "5f3990fd250501035f4c2457": {
+                    "response": 99990,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:02:18"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:02:26"
+                        }
+                    }
+                },
+                "5f132364f2bb0511c323a14d": {
+                    "response": "Bay Pines VA",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:02:26"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:02:30"
+                        }
+                    }
+                },
+                "5f5391d2c1734f38fd9ceefa": {
+                    "response": "INFORMATION_QUESTION",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:02:30"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:02:33"
+                        }
+                    }
+                },
+                "5f134d11e06ec411bc62cdaf": {
+                    "response": 45,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:02:33"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:02:37"
+                        }
+                    }
+                },
+                "5f134d33f448ff1191fa23f9": {
+                    "response": "Do not wish to respond",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:02:37"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:02:50"
+                        }
+                    }
+                },
+                "5f145684e06ec411bc6336d6": {
+                    "response": [
+                        [
+                            "Height-feet: ",
+                            "6"
+                        ],
+                        [
+                            "Height-inches: ",
+                            "0"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:02:50"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:03:17"
+                        }
+                    }
+                },
+                "5f14574ef2bb0511c323f4f1": {
+                    "response": 200,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:03:17"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:03:26"
+                        }
+                    }
+                },
+                "5f132487f2bb0511c323a1e6": {
+                    "response": [
+                        [
+                            "1. Repeated, disturbing, and unwanted memories of the stressful experience?:",
+                            "Not at all"
+                        ],
+                        [
+                            "2. Repeated, disturbing dreams of the stressful experience?:",
+                            "A little bit"
+                        ],
+                        [
+                            "3. Suddenly feeling or acting as if the stressful experience were actually happening again (as if you were actually back there reliving it)?:",
+                            "Moderately"
+                        ],
+                        [
+                            "4. Feeling very upset when something reminded you of the stressful experience?:",
+                            "Moderately"
+                        ],
+                        [
+                            "5. Having strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating)?:",
+                            "Moderately"
+                        ],
+                        [
+                            "6. Avoiding memories, thoughts, or feelings related to the stressful experience?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "7. Avoiding external reminders of the stressful experience (for example, people, places, conversations, activities, objects, or situations)?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "8. Trouble remembering important parts of the stressful experience?:",
+                            "Moderately"
+                        ],
+                        [
+                            "9. Having strong negative beliefs about yourself, other people, or the world (for example, having thoughts such as I am bad, there is something seriously wrong with me, no one can be trusted, the world is completely dangerous)?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "10. Blaming yourself or someone else for the stressful experience or what happened after it?:",
+                            "Quite a bit"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:03:26"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:03:44"
+                        }
+                    }
+                },
+                "5f134a4bb0e9a4118b6e1e4c": {
+                    "response": [
+                        [
+                            "11. Having strong negative feelings such as fear, horror, anger, guilt, or shame?:",
+                            "A little bit"
+                        ],
+                        [
+                            "12. Loss of interest in activities that you used to enjoy?:",
+                            "A little bit"
+                        ],
+                        [
+                            "13. Feeling distant or cut off from other people?:",
+                            "Moderately"
+                        ],
+                        [
+                            "14. Trouble experiencing positive feelings (for example, being unable to feel happiness or have loving feelings for people close to you)?:",
+                            "Moderately"
+                        ],
+                        [
+                            "15. Irritable behavior, angry outbursts, or acting aggressively?:",
+                            "Moderately"
+                        ],
+                        [
+                            "16. Taking too many risks or doing things that could cause you harm?:",
+                            "A little bit"
+                        ],
+                        [
+                            "17. Being \u201csuperalert\u201d or watchful or on guard?:",
+                            "A little bit"
+                        ],
+                        [
+                            "18. Feeling jumpy or easily startled?:",
+                            "Moderately"
+                        ],
+                        [
+                            "19. Having difficulty concentrating?:",
+                            "A little bit"
+                        ],
+                        [
+                            "20. Trouble falling or staying asleep?:",
+                            "Extremely"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:03:44"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:04:00"
+                        }
+                    }
+                },
+                "5f134dfdf448ff1191fa2485": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:04:00"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:04:42"
+                        }
+                    }
+                },
+                "5f135aece06ec411bc62d15c": {
+                    "response": "INFORMATION_QUESTION",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:04:04"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:04:48"
+                        }
+                    }
+                },
+                "5f134ef8e06ec411bc62cf01": {
+                    "response": "Never",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:04:07"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:04:50"
+                        }
+                    }
+                },
+                "5f134fd4b0e9a4118b6e1f88": {
+                    "response": "5 or 6",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:04:13"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:05:15"
+                        }
+                    }
+                },
+                "5f13553ce06ec411bc62d008": {
+                    "response": [
+                        [
+                            "AUD03)  How often do you have 5 or more drinks on one occasion?:",
+                            "Less than monthly"
+                        ],
+                        [
+                            "AUD04) How often during the last year have you found that you were not able to stop drinking once you had started?:",
+                            "Less than monthly"
+                        ],
+                        [
+                            "AUD05) How often during the last year have you failed to do what was normally expected of you because of drinking?:",
+                            "Less than monthly"
+                        ],
+                        [
+                            "AUD06) How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?:",
+                            "Less than monthly"
+                        ],
+                        [
+                            "AUD07) How often during the last year have you had a feeling of guilt or remorse after drinking?:",
+                            "Less than monthly"
+                        ],
+                        [
+                            "AUD08) How often during the last year have you been unable to remem-ber what happened the night before because of your drinking?:",
+                            "Less than monthly"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:04:16"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:09:18"
+                        }
+                    }
+                },
+                "5f1352a9b0e9a4118b6e1fea": {
+                    "response": "Yes, but not in the last year",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:09:18"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:09:23"
+                        }
+                    }
+                },
+                "5f1352f0f448ff1191fa264b": {
+                    "response": "Yes, during the last year",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:09:23"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:09:26"
+                        }
+                    }
+                },
+                "5f134e4ee06ec411bc62ce42": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:09:26"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:09:29"
+                        }
+                    }
+                },
+                "5f13564cf448ff1191fa27f0": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:09:29"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:09:35"
+                        }
+                    }
+                },
+                "5f13567cf2bb0511c323aa9b": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:09:35"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:09:37"
+                        }
+                    }
+                },
+                "5f1356a6f2bb0511c323aaa3": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:09:37"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:09:39"
+                        }
+                    }
+                },
+                "5f1356faf2bb0511c323aaab": {
+                    "response": "SKIPPED",
+                    "skipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:09:39"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:09:44"
+                        }
+                    }
+                },
+                "5f135778f2bb0511c323aab3": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:09:44"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:09:48"
+                        }
+                    }
+                },
+                "5f1357a0e06ec411bc62d027": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:09:48"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:09:50"
+                        }
+                    }
+                },
+                "5f145831f448ff1191fa8bac": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:09:50"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:10:02"
+                        }
+                    }
+                },
+                "5f14589eb0e9a4118b6e8460": {
+                    "response": "Slightly louder than breathing",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:10:02"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:10:04"
+                        }
+                    }
+                },
+                "5f145915f448ff1191fa8bcf": {
+                    "response": " Never or nearly never",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:10:04"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:10:07"
+                        }
+                    }
+                },
+                "5f145989b0e9a4118b6e8474": {
+                    "response": "Don't know",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:10:07"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:10:09"
+                        }
+                    }
+                },
+                "5f145a02f448ff1191fa8c65": {
+                    "response": "Never or nearly never",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:10:09"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:10:12"
+                        }
+                    }
+                },
+                "5f145a72b0e9a4118b6e847f": {
+                    "response": "Never or nearly never",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:10:12"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:10:14"
+                        }
+                    }
+                },
+                "5f145ad7e06ec411bc633722": {
+                    "response": "\nNever or nearly never",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:10:14"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:10:16"
+                        }
+                    }
+                },
+                "5f145b47f2bb0511c323f5d7": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:10:16"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:10:21"
+                        }
+                    }
+                },
+                "5f145b7db0e9a4118b6e84b5": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:10:21"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:10:21"
+                        }
+                    }
+                },
+                "5f145bc0f448ff1191fa8c76": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:10:21"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:10:26"
+                        }
+                    }
+                }
+            },
+            "timeZoneMinutes": -300,
+            "timeZoneReadable": "-5:00",
+            "triggerTimeLocal": {
+                "date": "03/09/2020",
+                "time": "08:51:07"
+            },
+            "submissionLocation": "",
+            "timestampCreatedLocal": {
+                "date": "07/09/2020",
+                "time": "10:02:18"
+            },
+            "timestampUpdatedLocal": {
+                "date": "07/09/2020",
+                "time": "10:10:26"
+            }
+        },
+        {
+            "responseId": "5f564e098a9e4648b8d4c5ef",
+            "studyId": "5f131c2ff448ff1191fa1d76",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "userId": "56d4b10baf91307077a89609",
+            "trigger": {
+                "id": "5f132a6ef2bb0511c323a21f",
+                "timestamp": 1599141067953,
+                "index": 1,
+                "type": "PORTAL",
+                "name": "screen"
+            },
+            "device": {
+                "os": "Mac OS",
+                "osVersion": "10.15",
+                "browser": "Firefox",
+                "browserVersion": "80.0"
+            },
+            "timestamp": {
+                "created": 1599491452525,
+                "updated": 1599491592609
+            },
+            "questionValues": {
+                "5f3990fd250501035f4c2457": {
+                    "response": 99991,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:10:52"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:10:58"
+                        }
+                    }
+                },
+                "5f132364f2bb0511c323a14d": {
+                    "response": "Sioux Falls VA",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:10:58"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:11:00"
+                        }
+                    }
+                },
+                "5f5391d2c1734f38fd9ceefa": {
+                    "response": "INFORMATION_QUESTION",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:11:00"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:11:01"
+                        }
+                    }
+                },
+                "5f134d11e06ec411bc62cdaf": {
+                    "response": 55,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:11:01"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:11:05"
+                        }
+                    }
+                },
+                "5f134d33f448ff1191fa23f9": {
+                    "response": "Female",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:11:05"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:11:08"
+                        }
+                    }
+                },
+                "5f145684e06ec411bc6336d6": {
+                    "response": [
+                        [
+                            "Height-feet: ",
+                            "5"
+                        ],
+                        [
+                            "Height-inches: ",
+                            "1"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:11:08"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:11:30"
+                        }
+                    }
+                },
+                "5f14574ef2bb0511c323f4f1": {
+                    "response": 120,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:11:11"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:11:33"
+                        }
+                    }
+                },
+                "5f132487f2bb0511c323a1e6": {
+                    "response": [
+                        [
+                            "1. Repeated, disturbing, and unwanted memories of the stressful experience?:",
+                            "Not at all"
+                        ],
+                        [
+                            "2. Repeated, disturbing dreams of the stressful experience?:",
+                            "A little bit"
+                        ],
+                        [
+                            "3. Suddenly feeling or acting as if the stressful experience were actually happening again (as if you were actually back there reliving it)?:",
+                            "A little bit"
+                        ],
+                        [
+                            "4. Feeling very upset when something reminded you of the stressful experience?:",
+                            "A little bit"
+                        ],
+                        [
+                            "5. Having strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating)?:",
+                            "A little bit"
+                        ],
+                        [
+                            "6. Avoiding memories, thoughts, or feelings related to the stressful experience?:",
+                            "Moderately"
+                        ],
+                        [
+                            "7. Avoiding external reminders of the stressful experience (for example, people, places, conversations, activities, objects, or situations)?:",
+                            "A little bit"
+                        ],
+                        [
+                            "8. Trouble remembering important parts of the stressful experience?:",
+                            "Moderately"
+                        ],
+                        [
+                            "9. Having strong negative beliefs about yourself, other people, or the world (for example, having thoughts such as I am bad, there is something seriously wrong with me, no one can be trusted, the world is completely dangerous)?:",
+                            "A little bit"
+                        ],
+                        [
+                            "10. Blaming yourself or someone else for the stressful experience or what happened after it?:",
+                            "A little bit"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:11:13"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:11:49"
+                        }
+                    }
+                },
+                "5f134a4bb0e9a4118b6e1e4c": {
+                    "response": [
+                        [
+                            "11. Having strong negative feelings such as fear, horror, anger, guilt, or shame?:",
+                            "A little bit"
+                        ],
+                        [
+                            "12. Loss of interest in activities that you used to enjoy?:",
+                            "Moderately"
+                        ],
+                        [
+                            "13. Feeling distant or cut off from other people?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "14. Trouble experiencing positive feelings (for example, being unable to feel happiness or have loving feelings for people close to you)?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "15. Irritable behavior, angry outbursts, or acting aggressively?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "16. Taking too many risks or doing things that could cause you harm?:",
+                            "Moderately"
+                        ],
+                        [
+                            "17. Being \u201csuperalert\u201d or watchful or on guard?:",
+                            "Moderately"
+                        ],
+                        [
+                            "18. Feeling jumpy or easily startled?:",
+                            "Moderately"
+                        ],
+                        [
+                            "19. Having difficulty concentrating?:",
+                            "Moderately"
+                        ],
+                        [
+                            "20. Trouble falling or staying asleep?:",
+                            "Moderately"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:11:49"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:14"
+                        }
+                    }
+                },
+                "5f134dfdf448ff1191fa2485": {
+                    "response": "SKIPPED",
+                    "skipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:11:59"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:20"
+                        }
+                    }
+                },
+                "5f135aece06ec411bc62d15c": {
+                    "response": "INFORMATION_QUESTION",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:20"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:22"
+                        }
+                    }
+                },
+                "5f134ef8e06ec411bc62cf01": {
+                    "response": "Never",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:22"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:25"
+                        }
+                    }
+                },
+                "5f134fd4b0e9a4118b6e1f88": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:25"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:25"
+                        }
+                    }
+                },
+                "5f13553ce06ec411bc62d008": {
+                    "response": [
+                        [
+                            "AUD03)  How often do you have 5 or more drinks on one occasion?:"
+                        ],
+                        [
+                            "AUD04) How often during the last year have you found that you were not able to stop drinking once you had started?:"
+                        ],
+                        [
+                            "AUD05) How often during the last year have you failed to do what was normally expected of you because of drinking?:"
+                        ],
+                        [
+                            "AUD06) How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?:"
+                        ],
+                        [
+                            "AUD07) How often during the last year have you had a feeling of guilt or remorse after drinking?:"
+                        ],
+                        [
+                            "AUD08) How often during the last year have you been unable to remem-ber what happened the night before because of your drinking?:"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:25"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:25"
+                        }
+                    }
+                },
+                "5f1352a9b0e9a4118b6e1fea": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:25"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:25"
+                        }
+                    }
+                },
+                "5f1352f0f448ff1191fa264b": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:25"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:25"
+                        }
+                    }
+                },
+                "5f134e4ee06ec411bc62ce42": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:25"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:29"
+                        }
+                    }
+                },
+                "5f13564cf448ff1191fa27f0": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:29"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:31"
+                        }
+                    }
+                },
+                "5f13567cf2bb0511c323aa9b": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:31"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:34"
+                        }
+                    }
+                },
+                "5f1356a6f2bb0511c323aaa3": {
+                    "response": "NO_ANSWER",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:34"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:37"
+                        }
+                    }
+                },
+                "5f1356faf2bb0511c323aaab": {
+                    "response": "NO_ANSWER",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:37"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:40"
+                        }
+                    }
+                },
+                "5f135778f2bb0511c323aab3": {
+                    "response": "SKIPPED",
+                    "skipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:40"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:43"
+                        }
+                    }
+                },
+                "5f1357a0e06ec411bc62d027": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:43"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:45"
+                        }
+                    }
+                },
+                "5f145831f448ff1191fa8bac": {
+                    "response": "Don't know",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:45"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:52"
+                        }
+                    }
+                },
+                "5f14589eb0e9a4118b6e8460": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:52"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:52"
+                        }
+                    }
+                },
+                "5f145915f448ff1191fa8bcf": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:52"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:52"
+                        }
+                    }
+                },
+                "5f145989b0e9a4118b6e8474": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:52"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:52"
+                        }
+                    }
+                },
+                "5f145a02f448ff1191fa8c65": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:52"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:12:52"
+                        }
+                    }
+                },
+                "5f145a72b0e9a4118b6e847f": {
+                    "response": "Never or nearly never",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:12:52"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:13:03"
+                        }
+                    }
+                },
+                "5f145ad7e06ec411bc633722": {
+                    "response": "\nNever or nearly never",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:13:03"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:13:06"
+                        }
+                    }
+                },
+                "5f145b47f2bb0511c323f5d7": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:13:06"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:13:09"
+                        }
+                    }
+                },
+                "5f145b7db0e9a4118b6e84b5": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:13:09"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:13:09"
+                        }
+                    }
+                },
+                "5f145bc0f448ff1191fa8c76": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "07/09/2020",
+                            "time": "10:13:09"
+                        },
+                        "updated": {
+                            "date": "07/09/2020",
+                            "time": "10:13:12"
+                        }
+                    }
+                }
+            },
+            "timeZoneMinutes": -300,
+            "timeZoneReadable": "-5:00",
+            "triggerTimeLocal": {
+                "date": "03/09/2020",
+                "time": "08:51:07"
+            },
+            "submissionLocation": "",
+            "timestampCreatedLocal": {
+                "date": "07/09/2020",
+                "time": "10:10:52"
+            },
+            "timestampUpdatedLocal": {
+                "date": "07/09/2020",
+                "time": "10:13:12"
+            }
+        },
+        {
+            "responseId": "5f57930fb4f8dd5f7d4f29db",
+            "studyId": "5f131c2ff448ff1191fa1d76",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "userId": "5f1b12b83692c23946a71c22",
+            "trigger": {
+                "id": "5f132a6ef2bb0511c323a21f",
+                "timestamp": 1599141067953,
+                "index": 1,
+                "type": "PORTAL",
+                "name": "screen"
+            },
+            "device": {
+                "os": "Mac OS",
+                "osVersion": "10.11.6",
+                "browser": "Chrome",
+                "browserVersion": "85.0.4183.83"
+            },
+            "timestamp": {
+                "created": 1599574367897,
+                "updated": 1599574798512
+            },
+            "questionValues": {
+                "5f3990fd250501035f4c2457": {
+                    "response": 666666,
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:12:47"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:13:05"
+                        }
+                    }
+                },
+                "5f132364f2bb0511c323a14d": {
+                    "response": "USD",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:13:05"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:13:11"
+                        }
+                    }
+                },
+                "5f5391d2c1734f38fd9ceefa": {
+                    "response": "INFORMATION_QUESTION",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:13:11"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:13:21"
+                        }
+                    }
+                },
+                "5f134d11e06ec411bc62cdaf": {
+                    "response": 31,
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:13:21"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:13:27"
+                        }
+                    }
+                },
+                "5f134d33f448ff1191fa23f9": {
+                    "response": "Male",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:13:27"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:13:30"
+                        }
+                    }
+                },
+                "5f145684e06ec411bc6336d6": {
+                    "response": [
+                        [
+                            "Height-feet: "
+                        ],
+                        [
+                            "Height-inches: "
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:13:30"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:13:35"
+                        }
+                    }
+                },
+                "5f14574ef2bb0511c323f4f1": {
+                    "response": "SKIPPED",
+                    "skipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:13:35"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:13:38"
+                        }
+                    }
+                },
+                "5f132487f2bb0511c323a1e6": {
+                    "response": [
+                        [
+                            "1. Repeated, disturbing, and unwanted memories of the stressful experience?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "2. Repeated, disturbing dreams of the stressful experience?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "3. Suddenly feeling or acting as if the stressful experience were actually happening again (as if you were actually back there reliving it)?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "4. Feeling very upset when something reminded you of the stressful experience?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "5. Having strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating)?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "6. Avoiding memories, thoughts, or feelings related to the stressful experience?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "7. Avoiding external reminders of the stressful experience (for example, people, places, conversations, activities, objects, or situations)?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "8. Trouble remembering important parts of the stressful experience?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "9. Having strong negative beliefs about yourself, other people, or the world (for example, having thoughts such as I am bad, there is something seriously wrong with me, no one can be trusted, the world is completely dangerous)?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "10. Blaming yourself or someone else for the stressful experience or what happened after it?:",
+                            "Do not wish to respond"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:13:38"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:14:02"
+                        }
+                    }
+                },
+                "5f134a4bb0e9a4118b6e1e4c": {
+                    "response": [
+                        [
+                            "11. Having strong negative feelings such as fear, horror, anger, guilt, or shame?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "12. Loss of interest in activities that you used to enjoy?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "13. Feeling distant or cut off from other people?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "14. Trouble experiencing positive feelings (for example, being unable to feel happiness or have loving feelings for people close to you)?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "15. Irritable behavior, angry outbursts, or acting aggressively?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "16. Taking too many risks or doing things that could cause you harm?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "17. Being \u201csuperalert\u201d or watchful or on guard?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "18. Feeling jumpy or easily startled?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "19. Having difficulty concentrating?:",
+                            "Do not wish to respond"
+                        ],
+                        [
+                            "20. Trouble falling or staying asleep?:",
+                            "Do not wish to respond"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:14:02"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:14:35"
+                        }
+                    }
+                },
+                "5f134dfdf448ff1191fa2485": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:14:35"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:15:35"
+                        }
+                    }
+                },
+                "5f135aece06ec411bc62d15c": {
+                    "response": "INFORMATION_QUESTION",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:14:45"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:15:37"
+                        }
+                    }
+                },
+                "5f134ef8e06ec411bc62cf01": {
+                    "response": "Never",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:14:48"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:15:38"
+                        }
+                    }
+                },
+                "5f134fd4b0e9a4118b6e1f88": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:15:00"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:15:38"
+                        }
+                    }
+                },
+                "5f13553ce06ec411bc62d008": {
+                    "response": [
+                        [
+                            "AUD03)  How often do you have 5 or more drinks on one occasion?:"
+                        ],
+                        [
+                            "AUD04) How often during the last year have you found that you were not able to stop drinking once you had started?:"
+                        ],
+                        [
+                            "AUD05) How often during the last year have you failed to do what was normally expected of you because of drinking?:"
+                        ],
+                        [
+                            "AUD06) How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?:"
+                        ],
+                        [
+                            "AUD07) How often during the last year have you had a feeling of guilt or remorse after drinking?:"
+                        ],
+                        [
+                            "AUD08) How often during the last year have you been unable to remem-ber what happened the night before because of your drinking?:"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:15:15"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:15:38"
+                        }
+                    }
+                },
+                "5f1352a9b0e9a4118b6e1fea": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:15:38"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:15:38"
+                        }
+                    }
+                },
+                "5f1352f0f448ff1191fa264b": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:15:38"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:15:38"
+                        }
+                    }
+                },
+                "5f134e4ee06ec411bc62ce42": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:14:53"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:15:41"
+                        }
+                    }
+                },
+                "5f13564cf448ff1191fa27f0": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:15:41"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:15:45"
+                        }
+                    }
+                },
+                "5f13567cf2bb0511c323aa9b": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:15:45"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:15:48"
+                        }
+                    }
+                },
+                "5f1356a6f2bb0511c323aaa3": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:15:48"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:15:51"
+                        }
+                    }
+                },
+                "5f1356faf2bb0511c323aaab": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:15:51"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:16:00"
+                        }
+                    }
+                },
+                "5f135778f2bb0511c323aab3": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:16:00"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:16:06"
+                        }
+                    }
+                },
+                "5f1357a0e06ec411bc62d027": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:16:06"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:16:14"
+                        }
+                    }
+                },
+                "5f145831f448ff1191fa8bac": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:16:14"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:17:15"
+                        }
+                    }
+                },
+                "5f14589eb0e9a4118b6e8460": {
+                    "response": "Louder than talking",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:17:08"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:17:18"
+                        }
+                    }
+                },
+                "5f145915f448ff1191fa8bcf": {
+                    "response": " Never or nearly never",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:17:11"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:17:22"
+                        }
+                    }
+                },
+                "5f145989b0e9a4118b6e8474": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:17:11"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:17:26"
+                        }
+                    }
+                },
+                "5f145a02f448ff1191fa8c65": {
+                    "response": "Nearly every day",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:17:11"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:17:31"
+                        }
+                    }
+                },
+                "5f145a72b0e9a4118b6e847f": {
+                    "response": "1-2 times a month",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:17:04"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:17:34"
+                        }
+                    }
+                },
+                "5f145ad7e06ec411bc633722": {
+                    "response": "\n1-2 times a month",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:17:34"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:19:51"
+                        }
+                    }
+                },
+                "5f145b47f2bb0511c323f5d7": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:19:51"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:19:55"
+                        }
+                    }
+                },
+                "5f145b7db0e9a4118b6e84b5": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:19:55"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:19:55"
+                        }
+                    }
+                },
+                "5f145bc0f448ff1191fa8c76": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "08/09/2020",
+                            "time": "09:19:55"
+                        },
+                        "updated": {
+                            "date": "08/09/2020",
+                            "time": "09:19:58"
+                        }
+                    }
+                }
+            },
+            "timeZoneMinutes": -300,
+            "timeZoneReadable": "-5:00",
+            "triggerTimeLocal": {
+                "date": "03/09/2020",
+                "time": "08:51:07"
+            },
+            "submissionLocation": "",
+            "timestampCreatedLocal": {
+                "date": "08/09/2020",
+                "time": "09:12:47"
+            },
+            "timestampUpdatedLocal": {
+                "date": "08/09/2020",
+                "time": "09:19:58"
+            }
+        },
+        {
+            "responseId": "5f8ddcd59034df34612cdc7d",
+            "studyId": "5f131c2ff448ff1191fa1d76",
+            "surveyId": "5f131e39b0e9a4118b6e17b7",
+            "userId": "5f1b12b83692c23946a71c22",
+            "trigger": {
+                "id": "5f132a6ef2bb0511c323a21f",
+                "timestamp": 1599141067953,
+                "index": 1,
+                "type": "PORTAL",
+                "name": "screen"
+            },
+            "device": {
+                "os": "Mac OS",
+                "osVersion": "10.11.6",
+                "browser": "Safari",
+                "browserVersion": "11.1.2"
+            },
+            "timestamp": {
+                "created": 1603132353765,
+                "updated": 1603132628333
+            },
+            "questionValues": {
+                "5f3990fd250501035f4c2457": {
+                    "response": 2004,
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:32:33"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:32:37"
+                        }
+                    }
+                },
+                "5f132364f2bb0511c323a14d": {
+                    "response": "USD",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:32:37"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:32:42"
+                        }
+                    }
+                },
+                "5f5391d2c1734f38fd9ceefa": {
+                    "response": "INFORMATION_QUESTION",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:32:42"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:32:49"
+                        }
+                    }
+                },
+                "5f134d11e06ec411bc62cdaf": {
+                    "response": 31,
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:32:49"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:32:56"
+                        }
+                    }
+                },
+                "5f134d33f448ff1191fa23f9": {
+                    "response": "Male",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:32:56"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:33:00"
+                        }
+                    }
+                },
+                "5f145684e06ec411bc6336d6": {
+                    "response": [
+                        [
+                            "Height-feet: ",
+                            "5"
+                        ],
+                        [
+                            "Height-inches: ",
+                            "9"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:33:00"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:33:06"
+                        }
+                    }
+                },
+                "5f14574ef2bb0511c323f4f1": {
+                    "response": 166,
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:33:06"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:33:13"
+                        }
+                    }
+                },
+                "5f132487f2bb0511c323a1e6": {
+                    "response": [
+                        [
+                            "1. Repeated, disturbing, and unwanted memories of the stressful experience?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "2. Repeated, disturbing dreams of the stressful experience?:",
+                            "Extremely"
+                        ],
+                        [
+                            "3. Suddenly feeling or acting as if the stressful experience were actually happening again (as if you were actually back there reliving it)?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "4. Feeling very upset when something reminded you of the stressful experience?:",
+                            "Moderately"
+                        ],
+                        [
+                            "5. Having strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating)?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "6. Avoiding memories, thoughts, or feelings related to the stressful experience?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "7. Avoiding external reminders of the stressful experience (for example, people, places, conversations, activities, objects, or situations)?:",
+                            "Extremely"
+                        ],
+                        [
+                            "8. Trouble remembering important parts of the stressful experience?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "9. Having strong negative beliefs about yourself, other people, or the world (for example, having thoughts such as I am bad, there is something seriously wrong with me, no one can be trusted, the world is completely dangerous)?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "10. Blaming yourself or someone else for the stressful experience or what happened after it?:",
+                            "Extremely"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:33:13"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:34:30"
+                        }
+                    }
+                },
+                "5f134a4bb0e9a4118b6e1e4c": {
+                    "response": [
+                        [
+                            "11. Having strong negative feelings such as fear, horror, anger, guilt, or shame?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "12. Loss of interest in activities that you used to enjoy?:",
+                            "Moderately"
+                        ],
+                        [
+                            "13. Feeling distant or cut off from other people?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "14. Trouble experiencing positive feelings (for example, being unable to feel happiness or have loving feelings for people close to you)?:",
+                            "Extremely"
+                        ],
+                        [
+                            "15. Irritable behavior, angry outbursts, or acting aggressively?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "16. Taking too many risks or doing things that could cause you harm?:",
+                            "Quite a bit"
+                        ],
+                        [
+                            "17. Being \u201csuperalert\u201d or watchful or on guard?:",
+                            "Extremely"
+                        ],
+                        [
+                            "18. Feeling jumpy or easily startled?:",
+                            "Extremely"
+                        ],
+                        [
+                            "19. Having difficulty concentrating?:",
+                            "Extremely"
+                        ],
+                        [
+                            "20. Trouble falling or staying asleep?:",
+                            "Extremely"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:34:30"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:35:04"
+                        }
+                    }
+                },
+                "5f134dfdf448ff1191fa2485": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:35:04"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:35:10"
+                        }
+                    }
+                },
+                "5f135aece06ec411bc62d15c": {
+                    "response": "INFORMATION_QUESTION",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:35:10"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:35:17"
+                        }
+                    }
+                },
+                "5f134ef8e06ec411bc62cf01": {
+                    "response": "4 or more times a week",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:35:17"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:35:22"
+                        }
+                    }
+                },
+                "5f134fd4b0e9a4118b6e1f88": {
+                    "response": "3 or 4",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:35:22"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:35:26"
+                        }
+                    }
+                },
+                "5f13553ce06ec411bc62d008": {
+                    "response": [
+                        [
+                            "AUD03)  How often do you have 5 or more drinks on one occasion?:",
+                            "Weekly"
+                        ],
+                        [
+                            "AUD04) How often during the last year have you found that you were not able to stop drinking once you had started?:",
+                            "Weekly"
+                        ],
+                        [
+                            "AUD05) How often during the last year have you failed to do what was normally expected of you because of drinking?:",
+                            "Monthly"
+                        ],
+                        [
+                            "AUD06) How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session?:",
+                            "Monthly"
+                        ],
+                        [
+                            "AUD07) How often during the last year have you had a feeling of guilt or remorse after drinking?:",
+                            "Daily or almost daily"
+                        ],
+                        [
+                            "AUD08) How often during the last year have you been unable to remem-ber what happened the night before because of your drinking?:",
+                            "Weekly"
+                        ]
+                    ],
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:35:26"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:35:56"
+                        }
+                    }
+                },
+                "5f1352a9b0e9a4118b6e1fea": {
+                    "response": "Yes, during the last year",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:35:56"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:06"
+                        }
+                    }
+                },
+                "5f1352f0f448ff1191fa264b": {
+                    "response": "Yes, but not in the last year",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:06"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:09"
+                        }
+                    }
+                },
+                "5f134e4ee06ec411bc62ce42": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:09"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:15"
+                        }
+                    }
+                },
+                "5f13564cf448ff1191fa27f0": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:15"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:18"
+                        }
+                    }
+                },
+                "5f13567cf2bb0511c323aa9b": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:18"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:22"
+                        }
+                    }
+                },
+                "5f1356a6f2bb0511c323aaa3": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:22"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:25"
+                        }
+                    }
+                },
+                "5f1356faf2bb0511c323aaab": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:25"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:32"
+                        }
+                    }
+                },
+                "5f135778f2bb0511c323aab3": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:32"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:36"
+                        }
+                    }
+                },
+                "5f1357a0e06ec411bc62d027": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:36"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:43"
+                        }
+                    }
+                },
+                "5f145831f448ff1191fa8bac": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:43"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:50"
+                        }
+                    }
+                },
+                "5f14589eb0e9a4118b6e8460": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:50"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:50"
+                        }
+                    }
+                },
+                "5f145915f448ff1191fa8bcf": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:50"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:50"
+                        }
+                    }
+                },
+                "5f145989b0e9a4118b6e8474": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:50"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:50"
+                        }
+                    }
+                },
+                "5f145a02f448ff1191fa8c65": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:50"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:50"
+                        }
+                    }
+                },
+                "5f145a72b0e9a4118b6e847f": {
+                    "response": "1-2 times a week",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:50"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:36:57"
+                        }
+                    }
+                },
+                "5f145ad7e06ec411bc633722": {
+                    "response": "\n1-2 times a month",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:36:57"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:37:02"
+                        }
+                    }
+                },
+                "5f145b47f2bb0511c323f5d7": {
+                    "response": "No",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:37:02"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:37:05"
+                        }
+                    }
+                },
+                "5f145b7db0e9a4118b6e84b5": {
+                    "response": "CONDITION_SKIPPED",
+                    "conditionSkipped": true,
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:37:05"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:37:05"
+                        }
+                    }
+                },
+                "5f145bc0f448ff1191fa8c76": {
+                    "response": "Yes",
+                    "timestamp": {
+                        "created": {
+                            "date": "19/10/2020",
+                            "time": "13:37:05"
+                        },
+                        "updated": {
+                            "date": "19/10/2020",
+                            "time": "13:37:08"
+                        }
+                    }
+                }
+            },
+            "timeZoneMinutes": -300,
+            "timeZoneReadable": "-5:00",
+            "triggerTimeLocal": {
+                "date": "03/09/2020",
+                "time": "08:51:07"
+            },
+            "submissionLocation": "",
+            "timestampCreatedLocal": {
+                "date": "19/10/2020",
+                "time": "13:32:33"
+            },
+            "timestampUpdatedLocal": {
+                "date": "19/10/2020",
+                "time": "13:37:08"
+            }
+        }
+    ],
+    "meta": {
+        "count": 5,
+        "total": 5,
+        "currentPage": 1,
+        "totalPages": 1
+    },
+    "studyName": "VHB2_Lab",
+    "surveyName": "Screen"
+}

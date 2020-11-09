@@ -1,0 +1,125 @@
+
+***now trying to work with the json
+python:
+import requests
+import json
+import pandas as pd
+import numpy as np
+from pandas.io.json import json_normalize  
+from json_flatten import flatten
+from collections import ChainMap
+pd.set_option('display.max_columns', 5)
+api_url = "https://consumer-api.metricwire.com"
+
+headers = {
+    'accept': 'application/json',
+    'Content-Type': 'application/x-www-form-urlencoded',
+}
+
+
+#api_call_headers = {'Authorization': 'Bearer ' + access_token}
+#api_call_response = requests.get(api_url, headers=api_call_headers, verify=False)
+
+headers = {
+	'Authorization' : 'Bearer ' +  access_token  ,
+	  'accept': 'application/json' }
+
+#r = requests.get(api_url, headers= headers)
+#screen data here
+data = requests.get("https://consumer-api.metricwire.com/submissions/5f131b95b0e9a4118b6e1726/5f131c2ff448ff1191fa1d76/5f131e39b0e9a4118b6e17b7", headers= headers).json()
+
+with open('abc.json', 'w') as f:
+    json.dump(data, f, indent=4)
+
+
+
+type(data)
+data.keys()
+
+#fulldata= pd.DataFrame.from_dict(data, orient='index')
+#fulldata.to_csv("fulldata.csv" , index=True) 
+
+print(data.keys())
+#####getting meta data related to VARIABLES has questionid and variable name , question etc
+#needs to be merged with quesvalues4 below by question id (called id in this datframe will need to rename)
+##works nice to get the survey meta datframe on its own
+
+SMlevel= pd.DataFrame.from_dict(data['surveyMeta'], orient='index')
+
+SMlevel
+type(SMlevel)
+list(SMlevel)
+
+##works nice to get the submission dataframe on its own
+submlevel= pd.DataFrame.from_dict(data['submissions'])
+
+submlevel 
+type(submlevel)
+submlevel['questionValues']
+list(submlevel)
+submlevel.to_csv("submdata.csv" , index=True) 
+
+##### need to extract date and time of each survey, trigger info, and device info from the submission data
+
+df1 = (pd.DataFrame(submlevel.trigger.values.tolist())
+         .stack()
+         .reset_index(level=1)
+         .rename(columns={0:'val','level_1':'key'}))
+print (df1)
+
+
+df = submlevel.drop('trigger', 1).join(df1).reset_index(drop=True)
+print (df)
+#data.rename(columns={'id':'questionId'}, inplace=True)
+df3=df.set_index(['userId','responseId', 'key'])['val'].unstack().reset_index()
+df3.rename(columns={'id':'triggerId', 'index': 'triggeIndex', 'name':'trigerName', 'type' : 'triggerType'}, inplace=True)
+triggerinfo=df3
+list(triggerinfo)
+
+#####extracting questionValues data
+quesvalues=submlevel.set_index(['responseId','userId'])['questionValues'].apply(pd.Series).stack().reset_index().rename(columns={'level_2':'questionId',0:'Value'})
+quesvalues
+quesvalues.to_csv("questest.csv" , index=True) 
+
+type(quesvalues)
+# do it again to extract the question data
+quesvalues2=quesvalues.set_index(['responseId','userId','questionId'])['Value'].apply(pd.Series).stack().reset_index().rename(columns={'level_3':'key',0:'Value'})
+quesvalues2
+list(quesvalues2)
+print(quesvalues2[['responseId', 'questionId', 'key','Value']])
+quesvalues2['Value']
+quesvalues2.to_csv("ques2test.csv" , index=True) 
+
+
+# do it again to extract the question data???
+
+quesvalues3=quesvalues2.set_index(['userId','responseId','questionId', 'key'])['Value'].unstack().reset_index()
+quesvalues3
+list(quesvalues3)
+quesvalues3[['responseId', 'questionId','response']]
+quesvalues3['response'][1]
+
+quesvalues3.to_csv("ques3test.csv" , index=True) 
+quesvalues2.columns
+quesvalues3.columns
+
+result=pd.merge(quesvalues2, quesvalues3, how='inner', on=['responseId','userId','questionId'])
+result.to_csv("result23.csv" , index=True)
+
+#result=pd.concat([quesvalues3, quesvalues2], axis=1, join='inner')
+#result.to_csv("result34.csv" , index=True) 
+
+lst_col = 'response'
+result1=pd.DataFrame({col:np.repeat(result[col].values, result[lst_col].str.len()) for col in result.columns.difference([lst_col])}).assign(**{lst_col:np.concatenate(result[lst_col].values)})[result.columns.tolist()]
+result1.to_csv("result1.csv" , index=True) 
+
+end
+#### so now quesvalues3 has userid responseid questionid and  the reponse, but fo screen some respponses are not parsed
+
+##trying to get the resppnse parsed
+quesvalues4=quesvalues3.set_index(['userId','responseId','questionId'])['response'].stack().reset_index()
+list(quesvalues4)
+
+result=pd.concat([quesvalues3, quesvalues4], axis=1, join='inner')
+result.to_csv("result34.csv" , index=True) 
+end
